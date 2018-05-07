@@ -1,0 +1,90 @@
+body{
+  background: url("background2.jpg");
+  /* Background image is centered vertically and horizontally at all times */
+  background-position: center center;
+  
+  /* Background image doesn't tile */
+  background-repeat: no-repeat;
+  
+  /* Background image is fixed in the viewport so that it doesn't move when 
+     the content's height is greater than the image's height */
+  background-attachment: fixed;
+  
+  /* This is what makes the background image rescale based
+     on the container's size */
+  background-size: cover;
+  font-family:Arial;
+  background-margin: auto;
+}
+
+.topnav {
+  overflow: hidden;
+  margin-top:0px;
+  /*width:660px;
+  height:30px;*/
+}
+#topnav a{  
+    float: left;
+    display: block;
+    color: black;
+    padding: 14px 16px;
+    text-decoration: none;
+ /* float: left;
+  text-align: center;
+  margin-top:80%;
+  padding-left: 50px;*/
+}
+
+#side {
+  margin-left:90%;
+  margin-top:20%;
+}
+/*
+div#head{
+  float: left;
+  height:1%
+position: relative;  
+}
+
+ul#nav{
+  list-style:none;
+display:block;
+
+}
+
+ul#nav li{
+  float:left;
+  margin-left:100px;
+  width:100px;
+  height:50px;
+}
+
+ul#nav a{
+    text-decoration:none;
+    color:black;
+}
+
+ul#nav a:hover{
+    color:white;
+}
+
+ul#nav a:hover {
+  background-image: url("projeto_download_equipe_selecionado.png");
+  width:120px;
+  height:20px;
+ 
+}
+
+div#side{
+  margin-right:0px;
+  margin-top: 80px;
+}
+
+div#side:hover{
+   background: url("ufrn.png");
+  background-size:100%;
+}
+
+div#footer{
+float-offset;
+}
